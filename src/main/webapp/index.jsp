@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="a">
-<img id="logo" src="images/logo.png">
+<a href="index.jsp"><img id="logo" src="images/logo.png"></a>
 <select id="select">
   <option>Shop By Brand</option>
   <option>LG</option>
@@ -19,13 +19,14 @@
   <option>LeeEco</option>
   <option>PANASONIC</option>
 </select>
+
+
+
 <span id="siup" class="glyphicon glyphicon-user" style="color:white"></span>	
 <span id="siin" class="glyphicon glyphicon-user" style="color:white"></span>
-<a id="sup" href="">Sign-up</a>
-<a id="sin" href="">Sign-in</a>
-<div id="b">
+<a id="sup" href="registration.jsp">Sign-up</a>
+<a id="sin" href="login.jsp">Sign-in</a>
 
-</div>
 <div id="c">
 
 <div id="cont" class="container">
@@ -38,28 +39,24 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+    
     <div class="carousel-inner">
       <div class="item active">
-         <img class="mySlides" src="images/slde1.jpg" style="width:100% ;height:200px">
+         <img class="mySlides" src="images/sld1.jpg" style="width:100% ;height:320px">
       </div>
 
       <div class="item">
-         <img class="mySlides" src="images/slde2.jpg" style="width:100% ;height:200px">
+         <img class="mySlides" src="images/sld2.jpg" style="width:100% ;height:320px">
       </div>
     
+      
       <div class="item">
-         <img class="mySlides" src="images/slde3.jpg" style="width:100% ;height:200px">
+         <img class="mySlides" src="images/sld4.jpg" style="width:100% ;height:320px">
       </div>
       <div class="item">
-         <img class="mySlides" src="images/slde4.jpg" style="width:100% ;height:200px">
+         <img class="mySlides" src="images/sld5.jpg" style="width:100% ;height:320px">
       </div>
-      <div class="item">
-         <img class="mySlides" src="images/slde5.jpg" style="width:100% ;height:200px">
-      </div>
-      <div class="item">
-         <img class="mySlides" src="images/slde6.jpg" style="width:100% ;height:200px">
-      </div>
+      
     </div>
 
     <!-- Left and right controls -->
@@ -77,13 +74,27 @@
 </div>
 <div id="d">
 
-<img id="tv1" src="images/TV1.jpg">
-	<img id="tv2" src="images/TV2.jpg">
+<a href="ProductDetails.jsp"><img id="tv1" src="images/TV1.jpg"></a>
+
+<img id="tv2" src="images/TV2.jpg">
 	<img id="tv3" src="images/TV3.jpg">
+	<img id="tv4" src="images/tv4.jpg">
+	<img id="tv5" src="images/tv5.jpg">
+	<img id="tv6" src="images/tv6.jpg">
+	<img id="tv7" src="images/tv7.jpg">
+	
+	<img id="tv9" src="images/tv9.jpg">
+	<img id="tv10" src="images/tv10.jpg">
+	<img id="tv11" src="images/tv11.jpg">
+	<img id="tv12" src="images/tv12.jpg">
+	<img id="tv13" src="images/tv13.jpg">
+	<img id="tv14" src="images/tv14.jpg">
+	<img id="tv15" src="images/tv15.jpg">
+	
 
 
 </div>
-<a href="">About Us</a>
+<a id="about" href="">About Us</a>
 <i id="fb" class="fa fa-facebook" style="font-size:24px;color:blue"></i>
 <i id="gg" class="fa fa-google-plus" style="font-size:24px;color:red"></i>
 <i id="tww" class="fa fa-twitter" style="font-size:24px;color:blue"></i>
